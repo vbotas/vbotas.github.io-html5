@@ -1,0 +1,1 @@
+Utilizando el elemento canvas, crea un Paint sencillo que pueda pintar en el canvas mientras se mantiene el botón del ratón pulsado en los colores rojo, verde, azul, negro y blanco. Además, añade un botón para borrar el canvas.
