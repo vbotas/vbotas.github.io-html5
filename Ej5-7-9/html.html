@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	<meta charset="utf-8">
+	<title>Probando Modernizr</title>
+	<script src="modernizr-custom.js"></script>
+	<script language="javascript">
+	if (Modernizr.canvas) {
+		alert("SI canvas");
+	}
+	else {
+		alert("NO canvas");
+	}
+	if (Modernizr.video) {
+		alert('Si video');
+	} 
+	else {
+		alert('No video');
+	}
+	if (Modernizr.video.ogg) {
+		alert('Si video ogg');
+	} 
+	else {
+		alert('No video ogg');
+	}
+	if (Modernizr.localstorage) {
+		alert('Si almacenamiento local');
+	} 
+	else {
+		alert('No almacenamiento local');
+	}
+	if (Modernizr.applicationcache) {
+  		alert('Hay funcionamiento sin conexion');
+	} else {
+  		alert('NO hay funcionamiento sin conexion');
+	}
+	if (Modernizr.geolocation) {
+		alert('Hay Geolocalización');
+	}
+	else {
+		alert('No hay geolocalización');
+	}
+	</script>	
+	</head>
+
+	<body>
+		<p>Probando funcionalidades de Modernizr</p>
+	</body>
+</html>
